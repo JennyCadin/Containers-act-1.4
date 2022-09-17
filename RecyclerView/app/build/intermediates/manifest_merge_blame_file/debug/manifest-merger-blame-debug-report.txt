@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.recyclerview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:24:5-72
+11-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:24:22-69
+12
+13    <application
+13-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:5:5-20:19
+14        android:allowBackup="true"
+14-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="com.example.recyclerview.activity.DetailActivity" />
+23-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:12:9-70
+23-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:12:19-58
+24        <activity android:name="com.example.recyclerview.activity.MainActivity" >
+24-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:13:9-19:20
+24-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:13:19-56
+25            <intent-filter>
+25-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:17-69
+26-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:17:17-77
+28-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:27:9-34:20
+32            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+32-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:28:13-99
+33            android:exported="true"
+33-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:29:13-36
+34            android:theme="@android:style/Theme" >
+34-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:30:13-49
+35            <intent-filter>
+35-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:31:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:17-69
+36-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:25-66
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:35:9-42:20
+40            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+40-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:36:13-95
+41            android:exported="true"
+41-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:37:13-36
+42            android:theme="@android:style/Theme" >
+42-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:38:13-49
+43            <intent-filter>
+43-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:31:13-33:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:17-69
+44-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:25-66
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:43:9-50:20
+48            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+48-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:44:13-103
+49            android:exported="true"
+49-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:45:13-36
+50            android:theme="@android:style/Theme.Dialog" >
+50-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:46:13-56
+51            <intent-filter>
+51-->[androidx.test:core:1.4.0] C:\Users\Jenny Cadin\.gradle\caches\transforms-2\files-2.1\db127fd74590f2ce69e5aaff61c30e2c\core-1.4.0\AndroidManifest.xml:31:13-33:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:17-69
+52-->C:\Users\Jenny Cadin\AndroidStudioProjects\RecyclerView\app\src\main\AndroidManifest.xml:15:25-66
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>

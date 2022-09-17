@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="Carreras">
+        <item>Enfermería</item>
+        <item>Construcción Civil</item>
+        <item>Ingeniería en Electricidad</item>
+        <item>Ingeniería en Prevención de Riesgos</item>
+        <item>Ingeniería en Química</item>
+        <item>Analista en Programación</item>
+        <item>Técnico en Energía Solar</item>
+        <item>Técnico en automatización</item>
+        <item>Mantenimiento Industrial</item>
+        <item>Servicio Social</item>
+        <item>Relaciones Laborales</item>
+        <item>Diseño Gráfico</item>
+        <item>Técnico en diseño digital</item>
+        <item>Psicopedagogía</item>
+        <item>Ingeniería en Informática</item>
+        <item>Técnico en Conectividad y redes</item>
+
+    </string-array>
+</resources>
